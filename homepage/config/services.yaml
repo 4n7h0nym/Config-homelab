@@ -27,8 +27,8 @@
         widget:
           type: nextcloud
           url: https://nextcloud.817serveur.ca
-          username: Anto
-          password: re8pf-oApjd-2sEn3-JRkLR-Rt66Z
+          username: username
+          password: password
           showPhotos: true
 
     - Immich:
@@ -39,8 +39,8 @@
         widget:
           type: immich
           version: 2
-          url: http://immich_server:2283
-          key: RP3Pjcbp4ou78utZSTE0TjESZr2XZhQs1q0lwdi9Ik
+          url: immichurl
+          key: APIKEY
 
 - Réseau & Proxy:
     - Tailscale:
