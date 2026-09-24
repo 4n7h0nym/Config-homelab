@@ -1,0 +1,29 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/info-widgets/
+
+- greeting:
+  text: "Serveur 817"
+  textTransform: "none"
+
+- resources:
+    cpu: true
+    memory: true
+    disk: /
+
+- search:
+    provider: duckduckgo
+    target: _blank
+
+- datetime:
+    text_size: l
+    format:
+      timeStyle: short
+      dateStyle: long
+
+- openweathermap:
+    label: Météo
+    latitude: "45.5017"
+    longitude: "-73.5673"
+    units: metric
+    apiKey: be732841116431fa3f7a94031cd7d048

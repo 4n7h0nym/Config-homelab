@@ -1,0 +1,30 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/settings/
+
+title: "Serveur 817"
+
+background:
+  image: "/images/background.png"
+  blur: sm
+  brightness: 75
+  saturate: 100
+  opacity: 100
+
+providers:
+  openweathermap: openweathermapapikey
+  weatherapi: weatherapiapikey
+
+layout:
+  Administration:
+    style: row
+    columns: 3
+  Services Cloud:
+    style: row
+    columns: 3
+  Réseau & Proxy:
+    style: row
+    columns: 3
+  Galerie Photos:
+    style: row
+    columns: 1

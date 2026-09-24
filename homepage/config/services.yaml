@@ -1,0 +1,55 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/services/
+
+- Administration:
+    - Portainer:
+        icon: portainer.png
+        href: https://portainer.817serveur.ca/
+        description: Gestionnaire Docker
+        container: portainer
+    - Pi-hole:
+        icon: pi-hole.png
+        href: https://pihole.817serveur.ca/admin/login
+        description: Bloqueur de publicités
+        container: pihole
+    - Vaultwarden:
+            icon: bitwarden.png
+            href: https://pass.817serveur.ca
+            description: Gestionnaire de mots de passe
+            container: vaultwarden
+- Services Cloud:
+    - Nextcloud:
+        icon: nextcloud.png
+        href: https://nextcloud.817serveur.ca/
+        description: Stockage personnel
+        container: nextcloud
+        widget:
+          type: nextcloud
+          url: https://nextcloud.817serveur.ca
+          username: Anto
+          password: re8pf-oApjd-2sEn3-JRkLR-Rt66Z
+          showPhotos: true
+
+    - Immich:
+        icon: immich.png
+        href: https://immich.817serveur.ca
+        description: Photothèque personnelle
+        container: immich_server
+        widget:
+          type: immich
+          version: 2
+          url: http://immich_server:2283
+          key: RP3Pjcbp4ou78utZSTE0TjESZr2XZhQs1q0lwdi9Ik
+
+- Réseau & Proxy:
+    - Tailscale:
+        icon: tailscale.png
+        href: https://login.tailscale.com/admin/machines
+        description: VPN Mesh privé
+
+    - Cloudflare Zero Trust:
+        icon: cloudflare.png
+        href: https://one.dash.cloudflare.com/
+        description: Tunnels & sécurité réseau
+        container: cloudflare

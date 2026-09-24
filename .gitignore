@@ -1,0 +1,24 @@
+# Exclure les secrets et clés
+.env
+*.env
+!.env.example
+*.pem
+*.key
+*.crt
+
+# Exclure les bases de données et volumes lourds
+*.db
+*.sqlite
+*.sqlite3
+/immich/
+/nextcloud/
+/vaultwarden/
+/pihole/
+/portainer/
+/**/images/
+/**/data/
+/**/uploads/
+
+# OS et logs
+.DS_Store
+*.log
